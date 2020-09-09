@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Row, Col, Grid } from "react-flexbox-grid";
 import Form from "./Components/Form";
 
