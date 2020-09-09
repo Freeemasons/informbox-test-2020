@@ -110,7 +110,7 @@ class Form extends Component {
 
       <div>
         <Grid className="u-padding-reset">
-          <Row className="u-padding-reset">
+          <Row className="u-padding-reset u-margin-rest">
             <Col lg={12}
                  className="table__head u-padding-reset" >
               <div
