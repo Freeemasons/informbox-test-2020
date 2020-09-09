@@ -55,16 +55,14 @@ code {
   text-align: start;
   font-size: 24px;
   font-weight: 700;
-  padding-bottom: 21px;
-  padding-top: 21px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 21px 20px;
 }
 
 .table {
   background: white;
   width: 100%;
   border-spacing: 0;
+  border-radius: 5px;
 
   th {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
