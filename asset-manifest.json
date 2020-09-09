@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/informbox-test-2020/static/css/main.07e7ce89.chunk.css",
+    "main.js": "/informbox-test-2020/static/js/main.49f307fe.chunk.js",
+    "main.js.map": "/informbox-test-2020/static/js/main.49f307fe.chunk.js.map",
+    "runtime-main.js": "/informbox-test-2020/static/js/runtime-main.3fcc79ac.js",
+    "runtime-main.js.map": "/informbox-test-2020/static/js/runtime-main.3fcc79ac.js.map",
+    "static/css/2.48707a75.chunk.css": "/informbox-test-2020/static/css/2.48707a75.chunk.css",
+    "static/js/2.a88c2762.chunk.js": "/informbox-test-2020/static/js/2.a88c2762.chunk.js",
+    "static/js/2.a88c2762.chunk.js.map": "/informbox-test-2020/static/js/2.a88c2762.chunk.js.map",
+    "index.html": "/informbox-test-2020/index.html",
+    "precache-manifest.dccdd6690896c8c8eee6d6036328df83.js": "/informbox-test-2020/precache-manifest.dccdd6690896c8c8eee6d6036328df83.js",
+    "service-worker.js": "/informbox-test-2020/service-worker.js",
+    "static/css/2.48707a75.chunk.css.map": "/informbox-test-2020/static/css/2.48707a75.chunk.css.map",
+    "static/css/main.07e7ce89.chunk.css.map": "/informbox-test-2020/static/css/main.07e7ce89.chunk.css.map",
+    "static/js/2.a88c2762.chunk.js.LICENSE.txt": "/informbox-test-2020/static/js/2.a88c2762.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fcc79ac.js",
+    "static/css/2.48707a75.chunk.css",
+    "static/js/2.a88c2762.chunk.js",
+    "static/css/main.07e7ce89.chunk.css",
+    "static/js/main.49f307fe.chunk.js"
+  ]
+}
