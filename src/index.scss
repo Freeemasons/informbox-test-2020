@@ -87,9 +87,12 @@ code {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
+  th:nth-child(1){
+    text-align: center;
+  }
+
   td:nth-child(1) {
     width: 70px;
-    text-align: center;
   }
 
   td:nth-child(2) {
