@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/informbox-test-2020/precache-manifest.992d1c39329cdcd18dabd963528689de.js"
+  "/informbox-test-2020/precache-manifest.c73eadca4f416aa3c1a082c0b732fb81.js"
 );
 
 self.addEventListener('message', (event) => {
