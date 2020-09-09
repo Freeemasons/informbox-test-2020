@@ -5,16 +5,12 @@ import Form from "./Components/Form";
 
 function App() {
 
-
-
   return (
     <div className="App">
       <Grid fluid>
         <Row center="xs">
           <Col lg={7} className="form-layout">
-            <Form>
-
-            </Form>
+            <Form />
           </Col>
         </Row>
       </Grid>
