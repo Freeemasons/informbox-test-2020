@@ -53,7 +53,6 @@ class Form extends Component {
   }
 
   onClickColorReset = (e) => {
-    // console.log('e', e)
     const resetState = {
       id: true,
       name: true,
@@ -89,14 +88,18 @@ class Form extends Component {
             className={this.state.name ? '' : 'invisible'}>
             {el.name}
           </td>
-          <td className={this.state.year ? '' : 'invisible'}>
+          <td
+            className={this.state.year ? '' : 'invisible'}>
             {el.year}
           </td>
-          <td className={this.state.color ? '' : 'invisible'}>
-            <div style={{backgroundColor: el.color}}
+          <td
+            className={this.state.color ? '' : 'invisible'}>
+            <div
+              style={{backgroundColor: el.color}}
                  className="color-block"></div>
             {el.color}</td>
-          <td className={this.state.pantone_value ? '' : 'invisible'}>
+          <td
+            className={this.state.pantone_value ? '' : 'invisible'}>
             {el.pantone_value}
           </td>
         </tr>
@@ -107,7 +110,6 @@ class Form extends Component {
 
       <div>
         <Grid>
-
           <Row>
             <Col lg={12}
                  className="table__head" >
@@ -125,11 +127,12 @@ class Form extends Component {
               </button>
             </Col>
             <Col lg={12}>
-              <table className="color-table">
-
+              <table
+                className="table">
                   <tbody>
                     <tr>
-                      <th className={this.state.id ? '' : 'invisible'}>
+                      <th
+                        className={this.state.id ? '' : 'invisible'}>
                         <input type="checkbox"
                                onChange={this.handleClick}
                                checked={this.state.id}
@@ -137,21 +140,24 @@ class Form extends Component {
                         />
                         Id
                       </th>
-                      <th className={this.state.name ? '' : 'invisible'}>
+                      <th
+                        className={this.state.name ? '' : 'invisible'}>
                         <input type="checkbox"
                                checked={this.state.name}
                                onChange={this.handleClick}
                                id="name"/>
                         Name
                       </th>
-                      <th className={this.state.year ? '' : 'invisible'}>
+                      <th
+                        className={this.state.year ? '' : 'invisible'}>
                         <input type="checkbox"
                                checked={this.state.year}
                                onChange={this.handleClick}
                         id="year"/>
                         Year
                       </th>
-                      <th className={this.state.color ? '' : 'invisible'}>
+                      <th
+                        className={this.state.color ? '' : 'invisible'}>
                         <input type="checkbox"
                                checked={this.state.color}
                                onChange={this.handleClick}
