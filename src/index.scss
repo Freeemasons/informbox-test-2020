@@ -15,6 +15,7 @@ code {
 .form-layout {
   background: white;
   border-radius: 5px;
+  padding: 0;
 }
 
 .btn-color{
@@ -47,6 +48,7 @@ code {
 .btn-color:disabled {
   cursor: not-allowed;
   pointer-events: all !important;
+  padding-right: 20px;
 }
 
 .table__title {
@@ -65,16 +67,16 @@ code {
   th {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    border-left: 1px solid rgba(0, 0, 0, 0.08);
     height: 32px;
     font-size: 12px;
     font-weight: lighter;
     text-align: start;
     text-transform: uppercase;
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
   }
 
   th:last-of-type {
-    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    border-right: none;
   }
 
   td {
@@ -85,7 +87,7 @@ code {
 
   td:nth-child(1) {
     width: 70px;
-    text-align: end;
+    text-align: center;
   }
 
   td:nth-child(2) {
@@ -95,7 +97,7 @@ code {
 
   td:nth-child(3) {
     width: 78px;
-    text-align: end;
+    text-align: center;
   }
 
   td:nth-child(4) {
@@ -105,13 +107,18 @@ code {
 
   td:nth-child(5) {
     width: 174px;
-    text-align: end;
+    text-align: start;
   }
 }
 
 .table__head {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+
+  .u-padding-reset {
+    padding: 0;
+  }
 }
 
 .color-block {
@@ -125,3 +132,8 @@ code {
 .invisible {
   display: none;
 }
+
+.form-layout .u-padding-reset {
+  padding: 0;
+}
+

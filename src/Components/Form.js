@@ -109,10 +109,10 @@ class Form extends Component {
     return (
 
       <div>
-        <Grid>
-          <Row>
+        <Grid className="u-padding-reset">
+          <Row className="u-padding-reset">
             <Col lg={12}
-                 className="table__head" >
+                 className="table__head u-padding-reset" >
               <div
                 className="table__title">
                 Pantone colors
@@ -126,7 +126,7 @@ class Form extends Component {
                 Reset
               </button>
             </Col>
-            <Col lg={12}>
+            <Col lg={12} className="u-padding-reset">
               <table
                 className="table">
                   <tbody>

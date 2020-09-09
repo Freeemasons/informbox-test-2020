@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Grid fluid>
         <Row center="xs">
-          <Col lg={7} className="form-layout">
+          <Col lg={6} className="form-layout u-padding-reset">
             <Form />
           </Col>
         </Row>
