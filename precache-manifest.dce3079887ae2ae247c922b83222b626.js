@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a624f008e020ecab32eb6e313a77cb5f",
+    "revision": "1a87c82b8757a0ecc186b5e53fd85382",
     "url": "/informbox-test-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/informbox-test-2020/static/css/2.48707a75.chunk.css"
   },
   {
-    "revision": "da5ab53ad70fb418d589",
-    "url": "/informbox-test-2020/static/css/main.07e7ce89.chunk.css"
+    "revision": "6a8a1d99580e56e5af35",
+    "url": "/informbox-test-2020/static/css/main.9ea454e7.chunk.css"
   },
   {
     "revision": "ef38bf316202a66bff5a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/informbox-test-2020/static/js/2.a88c2762.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da5ab53ad70fb418d589",
+    "revision": "6a8a1d99580e56e5af35",
     "url": "/informbox-test-2020/static/js/main.49f307fe.chunk.js"
   },
   {
